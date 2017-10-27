@@ -1,4 +1,4 @@
-def sort(arr):
+def bubble_sort(arr):
     length = len(arr)
     for i in range(length - 1, -1, -1):
         for j in range(i):
@@ -15,4 +15,4 @@ if __name__ == '__main__':
 
     user_input = input_func('Enter numbers separated by a comma:\n')
     unsorted = [int(item) for item in user_input.split(',')]
-    print(sort(unsorted))
+    print(bubble_sort(unsorted))
