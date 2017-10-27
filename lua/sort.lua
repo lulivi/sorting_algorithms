@@ -1,4 +1,4 @@
-local sort = function(tab)
+return function(tab)
     if type(tab) ~= 'table' then
         return false
     end
