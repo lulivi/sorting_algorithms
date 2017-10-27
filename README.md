@@ -1,2 +1,2 @@
 # sorting_algorithms
-Different algorightms in different programmign languages
+Various algorithms in different programming languages.
